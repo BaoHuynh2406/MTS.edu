@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="asset/png/letter-m.png"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="asset/css/sign.css">
+
+    <link rel="stylesheet" href="asset/font/fontawesome/css/all.css">
+
+    <title>Đăng Nhập</title>
+</head>
+<body>
+
+    <div id="toast"></div>
+
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+    
+                <div class="dangNhap__overlay">
+    
+                    <!-- Tiêu đề -->
+                    <h1 class="dangNhap__sign">Đăng Nhập</h1>
+    
+                    <form id="dangNhap" action="">
+    
+                        <!-- Nhập tài khoản -->
+                        <div class="form-group dangNhap__taiKhoan">
+                            <i class="fas fa-user"></i>
+                            <input autofocus type="email" class=" nhap taiKhoan__nhap" placeholder="abc@123.vn">
+                        </div>
+    
+                        <!-- Nhập Mật khẩu -->
+                        <div class="form-group dangNhap__matKhau">
+                            <i class="fas fa-lock"></i>
+                            <input type="password" class="nhap matKhau__nhap" placeholder="Mật khẩu">
+                        </div>
+    
+                        <!-- Các option lưu mật khẩu, quên mật khẩu -->
+                        <div class="form-group dangNhap__check ">
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input check__luuTaiKhoan">
+                                <label class="form-check-label check__luuTaiKhoan-text">Lưu mật khẩu</label>
+                            </div>
+                            <a href="#" class="check__quenMk">Quên Mật Khẩu</a>
+                        </div>
+    
+                        <!-- Các nút đăng nhập, đăng ký -->
+                        <div class="btn-group">
+                            <button class="btn btn-dk">Đăng ký</button>
+                            <input type="submit" value="Đăng nhập" class="btn btn-success btn-submit disabled">
+                        </div>
+    
+                    </form>
+    
+                    <div class="noSign">
+                        <span class="noSign--tt">Tiếp tục mà không đăng nhập</span>
+                    </div>
+    
+                </div>
+    
+            </div>
+        </div>
+    </div>
+</body>
+<script type="module" src="asset/js/dangNhap.js"></script>
+</html>

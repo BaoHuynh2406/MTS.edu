@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>MTS.edu - Quiz</title>
+    <link rel="icon" type="image/x-icon" href="src/img/letter-m.svg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="src/css/calendar-1.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
+    <!-- Google Fonts Roboto -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="src/css/home-page.css">
+    <link rel="stylesheet" href="src/css/lesson.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <!-- Hiệu ứng hover vào nav bar, làm rõ trang đang được chọn -->
+    <header class="header p-3 mb-1 border-bottom " id="header">
+        <div class="container">
+            <div class="d-flex flex-wrap align-items-center justify-content-center ">
+                <!-- LOGO -->
+                <a href="/"
+                    class="d-flex align-items-center mb-2 me-5 col-auto col-lg-12 col-xl-auto mb-lg-0 text-dark text-decoration-none">
+                    <!-- <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap" ></svg> -->
+                    <img src="src/img/logo.svg" width="50" height="50" alt="logo">
+                    <span class="fw-bold fs-5">MTS Education </span>
+                </a>
+
+                <!-- NAV -->
+                <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                    <li><a href="index.html" class="nav-link px-2 link-dark">Trang chủ</a></li>
+                    <li><a href="#" class="nav-link px-2  selection">Khóa học</a></li>
+                    <li><a href="#" class="nav-link px-2 link-dark">Cuộc thi</a></li>
+                    <li><a href="#" class="nav-link px-2 link-dark">Trợ giúp</a></li>
+                </ul>
+
+                <!-- SEARCH -->
+                <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-5 d-flex align-items-center justify-content-center">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Tìm kiếm...">
+                        <div class="input-group-append"><button class="btn btn-primary"><i
+                                    class="bi bi-search"></i></button></div>
+                    </div>
+                </form>
+
+                <!-- DROPDOWN -->
+                <div class="dropdown text-end">
+                    <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" id="dropdownUser1"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="src/img/person-circle.svg" alt="mdo" width="32" height="32" class="rounded-circle">
+                    </a>
+
+
+                    <ul class="dropdown-menu text-small" aria-labelledby="dropdownUser1">
+                        <li><a class="dropdown-item" href="#">Cài đặt</a></li>
+                        <li><a class="dropdown-item" href="#">Tài khoản</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="login.html">Đăng xuất</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+
+    <!-- Nội dung -->
+    <section style="margin: 120px 0;">
+        <div class="container">
+            <!-- Tiêu đề -->
+            <h4 class="fw-bold mb-3" style="color: #1e54a4;"> Quiz Java 1</h4>
+
+            <div class="card text-start w-100" style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);">
+                <div class="card-header">
+                    <span class="fs-5 fw-bold">Câu 2 /</span> <span>15</span>
+                    <button class="btn btn-success float-end">Nộp bài</button>
+                </div>
+                <div class="card-body px-4">
+                    <!-- Câu hỏi -->
+                    <h5 class="card-title my-3">Ai là cha đẻ của ngôn ngữ lập trình Java?</h5>
+
+
+                    <div class="form-check mb-2">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
+                            value="option1" checked>
+                        <label class="form-check-label" for="exampleRadios1">
+                            Thiên Bảo
+                        </label>
+                    </div>
+
+                    <div class="form-check mb-2">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2"
+                            value="option2">
+                        <label class="form-check-label" for="exampleRadios2">
+                            Bảo Huỳnh
+                        </label>
+                    </div>
+
+                    <div class="form-check mb-2">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3"
+                            value="option3" checked>
+                        <label class="form-check-label" for="exampleRadios3">
+                            Thiên Bảo
+                        </label>
+                    </div>
+
+                    <div class="form-check mb-2">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios4"
+                            value="option4">
+                        <label class="form-check-label" for="exampleRadios4">
+                            Bảo Huỳnh
+                        </label>
+                    </div>
+
+
+
+                </div>
+                <div class="card-footer text-body-secondary text-center">
+                    <button class="btn btn-primary me-3"> <i class="bi bi-caret-left-fill"></i> Quay lại</button>
+                    <button class="btn btn-primary"> Tiếp tục <i class="bi bi-caret-right-fill"></i> </button>
+                    <i class="bi bi-clock-fill float-end fw-bold mt-1" style="font-size: 18px;"> 00:00</i>
+                </div>
+            </div>
+
+
+
+        </div>
+    </section>
+
+
+
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start text-white" style="background-color: #1c2331">
+        <!-- Section: Social media -->
+        <section class="d-flex justify-content-between p-4" style="background-color: #1e2a55">
+            <!-- Left -->
+            <div class="me-5">
+                <span>Kết nối với chúng tôi qua các kênh mạng xã hội:</span>
+            </div>
+            <!-- Left -->
+
+            <!-- Right -->
+            <div>
+                <a href="https://www.facebook.com/huynhthienbao2020" class="text-white me-4">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="" class="text-white me-4">
+                    <i class="fab fa-google"></i>
+                </a>
+                <a href="" class="text-white me-4">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="" class="text-white me-4">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+            <!-- Right -->
+        </section>
+        
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+            © 2024 Copyright:
+            <a class="text-white" href="">Baohuynh.2406</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+
+</body>
+
+
+</html>

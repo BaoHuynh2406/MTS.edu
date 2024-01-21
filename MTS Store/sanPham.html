@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sản Phẩm 1</title>
+
+    <link rel="stylesheet" href="asset/css/sanPham.css">
+    <link rel="stylesheet" href="asset/css/base.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="asset/font/fontawesome/css/all.css">
+</head>
+<body>
+<div id="toast"></div>
+<div class="overlay"></div>
+    <!--==Header==-->
+    <header class="header">
+    
+
+        <ul class="nav_bar">
+    
+          <div class="logo">
+            <img src="asset/png/logo_2.png" alt="" class="logo_png">
+          </div>
+          <li class="nav_bar__item trang_chu">TRANG CHỦ</li>
+          <li onclick="cua_hang()" class="nav_bar__item select">CỬA HÀNG</li>
+          <li class="nav_bar__item khamPha">KHÁM PHÁ<i class="fa-solid fa-caret-down"></i>
+            <div class="khamPha__container">
+              <span class="khamPha__item" >Trending</span>
+              <span class="khamPha__item" >Phụ Kiện Hot</span>
+              <span class="khamPha__item" >Nhiều lượt xem</span>
+              <span class="khamPha__item" >Xem Ngẫu Nhiên</span>
+            </div>
+          </li>
+          <li class="nav_bar__item">HỢP TÁC</li>
+          <li class="nav_bar__item">TIN TỨC</li>
+          <li class="nav_bar__item">HỖ TRỢ</li>
+        </ul>
+    
+       
+    
+        <div class="header__end">
+          <div class="search">
+            <i class="fa-solid fa-magnifying-glass search__icon"></i>
+            <input type="text" class="search__input">
+          </div>
+    
+          <div class="cart header__button header__button--download">
+              <div class="cart__num">
+                <span>10</span>
+              </div>
+              <i class="fa-solid fa-cart-shopping"></i>
+
+              <!-- Giỏ hàng hover -->
+              <div class="cart__container cart__container--Nosp">
+
+                <div class="cart__item__container">
+
+                
+                </div>
+
+                <div class="cart__container__total">Tổng: 150.000</div>
+                <button class="cart__thanhToan">Thanh Toán</button>
+
+               
+
+              </div>
+
+          </div>
+
+          <div class="header__button login">
+            <span class="login__text">Login</span>
+          </div>
+          
+        </div>
+      </header>
+
+      <div class="container">
+          <!-- Tên -->
+          <div class="Name"><h3>Tai nghe có dây Awei Q29Hi</h3></div>
+          <!-- SideBar -->
+          <div class="sideBar">
+
+              <div class="sideBar__grup">
+                <div class="sideBar__img">
+                  <img src="https://cdn.tgdd.vn/Products/Images/54/202536/tai-nghe-ep-awei-q29hi-den-hong-2-1-org.jpg" alt="">
+                  <img src="https://cdn.tgdd.vn/Products/Images/54/202536/tai-nghe-ep-awei-q29hi-den-hong-3-1-org.jpg" alt="">
+                  <img src="https://cdn.tgdd.vn/Products/Images/54/202536/tai-nghe-ep-awei-q29hi-den-hong-4-1-org.jpg" alt="">
+                  <img src="https://cdn.tgdd.vn/Products/Images/54/202536/tai-nghe-ep-awei-q29hi-den-hong-5-1-org.jpg" alt="">
+
+                </div>
+                
+                <!-- <button value="left" class="left__scroll btn__scroll"><i class="fa-solid fa-caret-left"></i></button>
+                <button value="right" class="right__scroll btn__scroll"><i class="fa-solid fa-caret-right"></i></button>   -->
+              </div>
+             
+
+          </div>
+          <!-- Loại Hàng -->
+          <div class="loaiHang">
+            <div class="loaiHang__mau">
+              <button class="btn_loai btn_loai--color" data-color="white">Trắng</button>
+              <button class="btn_loai btn_loai--color btn__loai--select" data-color="black">Đen</button>
+              <button class="btn_loai btn_loai--color" data-color="yellow">Vàng</button>
+            </div>
+
+            <div class="loaiHang__tinhTrang">
+              <button class="btn_loai btn_loai--type" data-type="old">Cũ 95%</button>
+              <button class="btn_loai btn_loai--type btn__loai--select" data-type="new">Mới</button>
+            </div>
+          </div>
+
+
+          <!-- Giá Bán -->
+          <div class="giaBan">
+            <!-- JS -->
+          </div>
+
+          <!-- Mua Ngay BTN -->
+          <div class="btn_mua">
+            <button id="1_0" onclick="ThemVaoGioHang(id)" class="btn__addCart">Thêm vào giỏ hàng</button>
+            <button class="btn__muaNgay">Mua Ngay</button>
+          </div>
+          <div class="mota">
+            <h3>Đặc điểm nổi bật</h3>
+            
+            <p>- Thiết kế thời trang, nhỏ gọn, dễ dàng mang theo. <br>
+              - Có jack cắm 3.5 mm, tương thích với nhiều thiết bị. <br>
+              - Có đệm tai cao su cho cảm giác dễ chịu, hạn chế tiếng ồn và có âm thanh ra tốt. <br>
+              - Nút điều khiển trên tai nghe tiện lợi.</p>
+
+          </div>
+
+          <div class="thongSo">
+            <h3>Thông số kỹ thuật</h3>
+
+            <div class="row1">Jack cắm:</div>
+            <div class="row1">3.5mm</div>
+
+            <div class="row2">Tương thích:</div>
+            <div class="row2">Android, Windows, IOS </div>
+
+            <div class="row3">Tiện ích:</div>
+            <div class="row3">Có mic thoại, đệm tai đi kèm</div>
+
+            <div class="row4">Hãng:</div>
+            <div class="row4">Awei</div>
+
+          </div>
+          <div class="binhLuan__container">
+
+            <!-- Bình Luận -->
+            <div class="binhLuan">
+              <h2>Bình Luận</h2>
+
+              <div class="binhLuan__info">
+
+                  <img src="../asset/png/avatar/man.png" alt="Ảnh đại diện" class="binhLuan__info-avatar">
+
+                  <div class="binhLuan__info-conten">
+                      <div class="binhLuan__info-conten-name">Huỳnh Thiên Bảo</div>
+                      <div class="binhLuan__info-conten-danhGia">★ ★ ★ ★ ☆</div>
+                      <div class="binhLuan__info-conten-time">08/02/2023</div>
+                  </div>
+              </div>
+              <div class="binhLuan__conten">
+                  <p class="binhLuan__conten-p">
+                      Tôi thấy game này rất hay. mọi người nên tải về trải nghiệm.<br>
+                      Great!
+                  </p>
+                  <button id="like-1" class="like">
+                      <img src="../asset/png/like.png" alt="" class="binhLuan__conten-like like_1">
+                  </button>
+              </div>
+            </div>
+            <!-- Bình luận 2 -->
+            <div class="binhLuan">
+              <div class="binhLuan__info">
+
+                  <img src="../asset/png/avatar/rabbit.png" alt="Ảnh đại diện" class="binhLuan__info-avatar">
+
+                  <div class="binhLuan__info-conten">
+                      <div class="binhLuan__info-conten-name">Người dùng 1</div>
+                      <div class="binhLuan__info-conten-danhGia">★ ★ ★ ★ ★</div>
+                      <div class="binhLuan__info-conten-time">05/01/2023</div>
+                  </div>
+              </div>
+              <div class="binhLuan__conten">
+                  <p class="binhLuan__conten-p">
+                      Đồ họa quá tuyệt vời! <br>
+                      game chơi cuốn quá mọi người tải thử đi.
+                  </p>
+                  <button id="like-2" class="like">
+                      <img src="../asset/png/like.png" alt="" class="binhLuan__conten-like like_2">
+                  </button>
+              </div>
+            </div>
+            <!-- Bình Luận 3 -->
+            <div class="binhLuan">
+              <div class="binhLuan__info">
+
+                  <img src="../asset/png/avatar/dog.png" alt="Ảnh đại diện" class="binhLuan__info-avatar">
+
+                  <div class="binhLuan__info-conten">
+                      <div class="binhLuan__info-conten-name">Cún Con</div>
+                      <div class="binhLuan__info-conten-danhGia">★ ★ ★ ☆ ☆</div>
+                      <div class="binhLuan__info-conten-time">21/09/2022</div>
+                  </div>
+              </div>
+              <div class="binhLuan__conten">
+                  <p class="binhLuan__conten-p">
+                      game khó chơi quá :(((
+                  </p>
+                  <button id="like-3" class="like">
+                      <img src="../asset/png/like.png" alt="" class="binhLuan__conten-like like_3">
+                  </button>
+              </div>
+            </div>
+            <!-- bình luận 4 -->
+            <div class="binhLuan">
+              <div class="binhLuan__info">
+
+                  <img src="../asset/png/avatar/gamer.png" alt="Ảnh đại diện" class="binhLuan__info-avatar">
+
+                  <div class="binhLuan__info-conten">
+                      <div class="binhLuan__info-conten-name">Trần Gia Huy</div>
+                      <div class="binhLuan__info-conten-danhGia">★ ★ ★ ★ ☆</div>
+                      <div class="binhLuan__info-conten-time">24/06/2022</div>
+                  </div>
+              </div>
+              <div class="binhLuan__conten">
+                  <p class="binhLuan__conten-p">
+                      cảm ơn nhà sản xuất đã làm ra con game fantastic thế này <br>
+                      Verry good.
+                  </p>
+                  <button id="like-4" class="like">
+                      <img src="../asset/png/like.png" alt="" class="binhLuan__conten-like like_4">
+                  </button>
+              </div>
+            </div>
+            <!-- Bình Luân 5 -->
+            <div class="binhLuan">
+              <div class="binhLuan__info">
+
+                  <img src="../asset/png/avatar/bear.png" alt="Ảnh đại diện" class="binhLuan__info-avatar">
+
+                  <div class="binhLuan__info-conten">
+                      <div class="binhLuan__info-conten-name">Gấu Bắc Cực</div>
+                      <div class="binhLuan__info-conten-danhGia">★ ★ ★ ★ ☆</div>
+                      <div class="binhLuan__info-conten-time">24/01/2022</div>
+                  </div>
+              </div>
+              <div class="binhLuan__conten">
+                  <p class="binhLuan__conten-p">
+                      Good!
+                  </p>
+                  <button id="like-5" class="like">
+                      <img src="../asset/png/like.png" alt="" class="binhLuan__conten-like like_5">
+                  </button>
+              </div>
+            </div>
+
+
+          </div>
+
+
+          <!-- Sản Phẩm Khác -->
+          <div class="spkhac">
+
+            <div id="phuKien" class="group__Main group__phuKien">
+              <h3 class="group__tt">Sản Phẩm Khác</h3>
+          
+              <div class="container__btn">
+                <button value="left" class="left__scroll btn__scroll"><i class="fa-solid fa-caret-left"></i></button>
+                <button value="right" class="right__scroll btn__scroll"><i class="fa-solid fa-caret-right"></i></button>
+                <div id="list1" class="group__container">
+                <!-- Item ---- -->
+                <!-- JS -->
+          <!-- container Phụ Kiện  -->   
+                </div>
+              </div>  
+            </div>
+
+          </div>
+      </div>
+
+<!-- Xem Thêm -->
+      <button class="cta">
+        <span class="span">Xem Thêm</span>
+        <span class="second">
+          <svg width="50px" height="20px" viewBox="0 0 66 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g id="arrow" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+              <path class="one" d="M40.1543933,3.89485454 L43.9763149,0.139296592 C44.1708311,-0.0518420739 44.4826329,-0.0518571125 44.6771675,0.139262789 L65.6916134,20.7848311 C66.0855801,21.1718824 66.0911863,21.8050225 65.704135,22.1989893 C65.7000188,22.2031791 65.6958657,22.2073326 65.6916762,22.2114492 L44.677098,42.8607841 C44.4825957,43.0519059 44.1708242,43.0519358 43.9762853,42.8608513 L40.1545186,39.1069479 C39.9575152,38.9134427 39.9546793,38.5968729 40.1481845,38.3998695 C40.1502893,38.3977268 40.1524132,38.395603 40.1545562,38.3934985 L56.9937789,21.8567812 C57.1908028,21.6632968 57.193672,21.3467273 57.0001876,21.1497035 C56.9980647,21.1475418 56.9959223,21.1453995 56.9937605,21.1432767 L40.1545208,4.60825197 C39.9574869,4.41477773 39.9546013,4.09820839 40.1480756,3.90117456 C40.1501626,3.89904911 40.1522686,3.89694235 40.1543933,3.89485454 Z" fill="#FFFFFF"></path>
+              <path class="two" d="M20.1543933,3.89485454 L23.9763149,0.139296592 C24.1708311,-0.0518420739 24.4826329,-0.0518571125 24.6771675,0.139262789 L45.6916134,20.7848311 C46.0855801,21.1718824 46.0911863,21.8050225 45.704135,22.1989893 C45.7000188,22.2031791 45.6958657,22.2073326 45.6916762,22.2114492 L24.677098,42.8607841 C24.4825957,43.0519059 24.1708242,43.0519358 23.9762853,42.8608513 L20.1545186,39.1069479 C19.9575152,38.9134427 19.9546793,38.5968729 20.1481845,38.3998695 C20.1502893,38.3977268 20.1524132,38.395603 20.1545562,38.3934985 L36.9937789,21.8567812 C37.1908028,21.6632968 37.193672,21.3467273 37.0001876,21.1497035 C36.9980647,21.1475418 36.9959223,21.1453995 36.9937605,21.1432767 L20.1545208,4.60825197 C19.9574869,4.41477773 19.9546013,4.09820839 20.1480756,3.90117456 C20.1501626,3.89904911 20.1522686,3.89694235 20.1543933,3.89485454 Z" fill="#FFFFFF"></path>
+              <path class="three" d="M0.154393339,3.89485454 L3.97631488,0.139296592 C4.17083111,-0.0518420739 4.48263286,-0.0518571125 4.67716753,0.139262789 L25.6916134,20.7848311 C26.0855801,21.1718824 26.0911863,21.8050225 25.704135,22.1989893 C25.7000188,22.2031791 25.6958657,22.2073326 25.6916762,22.2114492 L4.67709797,42.8607841 C4.48259567,43.0519059 4.17082418,43.0519358 3.97628526,42.8608513 L0.154518591,39.1069479 C-0.0424848215,38.9134427 -0.0453206733,38.5968729 0.148184538,38.3998695 C0.150289256,38.3977268 0.152413239,38.395603 0.154556228,38.3934985 L16.9937789,21.8567812 C17.1908028,21.6632968 17.193672,21.3467273 17.0001876,21.1497035 C16.9980647,21.1475418 16.9959223,21.1453995 16.9937605,21.1432767 L0.15452076,4.60825197 C-0.0425130651,4.41477773 -0.0453986756,4.09820839 0.148075568,3.90117456 C0.150162624,3.89904911 0.152268631,3.89694235 0.154393339,3.89485454 Z" fill="#FFFFFF"></path>
+            </g>
+          </svg>
+        </span> 
+      </button>
+<!-- ================================================================================================== -->
+    <!--==FOOTER==-->
+    <footer class="footer">
+      <div class="moTa">
+          <div class="moTa__conten">
+              <img src="asset/png/logo_2.png" alt="" class="conten__logo">
+              <div class="conten__name">MTS STUDIO</div>
+          </div>
+          <div class="moTa__line"></div>
+          <p class="moTa__title">
+              Đây là một sản phẩm thử nghiệm. Trang web tổng hợp và tải game <br> cho cả androi và windowns
+              Được làm bởi Huỳnh Thiên Bảo. <br> Cảm ơn bạn đã quan tâm!
+          </p>
+      </div>
+      <div class="info">
+          <p class="info__title">FOLLOW ME</p>
+          <div class="info-icon">
+              <a href="https://www.facebook.com/huynhthienbao2020" target="_blank"><img class="info__icon" src="asset/png/fb.png" alt=""></a>
+              <a href="https://www.instagram.com/baohuynh.2406/" target="_blank"><img class="info__icon" src="asset/png/inta.png" alt=""></a>
+              <a href="dangPhatTrien.html"><img class="info__icon" src="asset/png/mail.png" alt=""></a>
+          </div>
+      </div>
+      
+      <iframe class="ban_do" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d858.3587802170108!2d108.18082189138923!3d13.360983854435714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x316e714af22663c1%3A0xc6f748a92d4baad8!2zQ-G6p3UgVGjDtG4gMmI!5e0!3m2!1svi!2s!4v1680105443169!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>        
+  </footer>   
+</body>
+<script src="asset/js/SanPham.js"></script>
+</html>

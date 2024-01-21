@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.btn3 {
+    background: rgba(0, 0, 0, 0);
+    color: #A2B29F;
+    padding: 20px 40px;
+    display: inline-block;
+    border: 2px solid #A2B29F;
+    border-radius: 12px;
+    transition: all 0.5s ease;
+    overflow: hidden;
+    text-transform: capitalize;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .btn3:hover {
+    background-color: #0BC6E3;
+    color: #fff;
+    border: 2px solid #0BC6E3;
+    
+  }
+
+/* Button 1 */
+.btn{
+    min-width: 60px;
+    padding: 10px 20px;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 15px;
+    background-color: #00D296;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #4efaca;
+}
+
+
+
+      /* Tìm Kiếm */
+    .header__find{
+      background-color: #a08f56;
+      border-top: 2px solid #a0a0a0;
+      border-bottom: 2px solid #a0a0a0;
+      max-width: 1536px;
+      min-width: 1500px;
+      height: 80px;
+      padding: 20px 0;
+      margin-bottom: 200px;
+    }
+    .find-box{
+        background-color: #e8e8e8;
+        width: 1200px;
+        height: 40px;
+        display: flex;
+        margin: auto;
+        border-radius: 5px;
+        box-shadow: 1px 1px 5px #9f9f9f;
+        padding: 5px 15px;
+    }
+    .find-box__seacher{
+        background-color: #e8e8e8;
+        border: none;
+        width: 90%;
+    }
+    .find-box__type{
+        margin: auto 0;
+        margin-right: 60px;
+        position: relative;
+        cursor: pointer;
+    }
+    .find-box__type::before{
+        content: "";
+        border: 7px solid;
+        border-color: #616161 transparent transparent transparent;
+        top: 40%;
+        right: -25px;
+        position: absolute;
+    }
+    .find-box__type::after{
+        content: "";
+        width: 20px;
+        height: 23px;
+        border-right: 2px solid #848484;
+        top: 6%;
+        right: -46px;
+        position: absolute;
+    }
+    .find-box__type-list{
+        position: absolute;
+        background-color: #fff;
+        width: 140px;
+        padding: 10px 10px;
+        padding-bottom: 20px;
+        border: 1px solid #b1b1b1;
+    }
+    .find-box__icon{
+        width: 25px;
+        height: 25px;
+        margin: auto 0;
+    }
+
+/* CHÂN TRANG */
+/* FOOTER */
+.line__footer{
+    width: 1536px;
+    height: 50px;
+    background-color: #0a0a0a;
+}
+.footer{
+    width: 1536px;
+    height: 400px;
+    background-color: #22242A;
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+}
+
+.moTa__conten{
+    display: flex;
+    margin-bottom: 20px;
+}
+.conten__name{
+    color: #ffff;
+    margin: auto 20px;
+    font-size: 45px;
+    font-weight: 800;
+}
+.moTa__line{
+    width: 450px;
+    height: 2px;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+.moTa__title{
+    color: #fff;
+    font-size: 14px;
+}
+
+
+
+
+.info__title{
+    color: #fff;
+    font-size: 45px;
+    font-weight: 700;
+    margin: 30.25px 0;
+}
+.info-icon{
+    display: flex;
+}
+.info__icon{
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+}
+.info__icon:hover{
+    transform: scale(1.05);
+}

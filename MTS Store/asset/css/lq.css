@@ -1,0 +1,12 @@
+
+.gameHeader{
+    max-width: 1536px;
+    height: 800px;
+    background-image: linear-gradient(-315deg, rgb(0, 0, 0), rgba(0, 0, 0, 0.719)),
+    url(../png/LienQuan/1.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    align-items: flex-end;
+    padding: 30px;
+}

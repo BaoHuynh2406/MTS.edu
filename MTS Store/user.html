@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quản Lý Tài Khoản</title>
+    <link rel="icon" type="image/x-icon" href="asset/png/user.png"/>
+    <link rel="stylesheet" href="asset/css/reset.css">
+    <link rel="stylesheet" href="asset/css/base.css">
+    <link rel="stylesheet" href="asset/font/fontawesome/css/all.css">
+    <link rel="stylesheet" href="asset/css/cua_hang.css">
+    <link rel="stylesheet" href="asset/css/taikhoan.css">
+</head>
+<body>
+    
+    <!--==Header==-->
+    <header class="header">
+    
+
+        <ul class="nav_bar">
+    
+          <div class="logo">
+            <img src="asset/png/logo_2.png" alt="" class="logo_png">
+          </div>
+          <li class="nav_bar__item trang_chu">TRANG CHỦ</li>
+          <li class="nav_bar__item">CỬA HÀNG</li>
+          <li class="nav_bar__item khamPha">KHÁM PHÁ<i class="fa-solid fa-caret-down"></i>
+            <div class="khamPha__container">
+              <span class="khamPha__item" >Trending</span>
+              <span class="khamPha__item" >Phụ Kiện Hot</span>
+              <span class="khamPha__item" >Nhiều lượt xem</span>
+              <span class="khamPha__item" >Xem Ngẫu Nhiên</span>
+            </div>
+          </li>
+          <li class="nav_bar__item">HỢP TÁC</li>
+          <li class="nav_bar__item">TIN TỨC</li>
+          <li class="nav_bar__item">HỖ TRỢ</li>
+        </ul>
+    
+       
+    
+        <div class="header__end">
+          <div class="search">
+            <i class="fa-solid fa-magnifying-glass search__icon"></i>
+            <input type="text" class="search__input">
+          </div>
+    
+          <div class="cart header__button header__button--download">
+
+              <div id="num" class="cart__num">
+                <span>10</span>
+              </div>
+
+              <i class="fa-solid fa-cart-shopping"></i>
+
+              <!-- Giỏ hàng hover -->
+              <div class="cart__container cart__container--Nosp">
+
+                <div class="cart__item__container">
+
+                
+                </div>
+
+                <div class="cart__container__total">Tổng: 150.000</div>
+                <button class="cart__thanhToan">Thanh Toán</button>
+
+               
+
+              </div>
+
+          </div>
+
+          <div class="header__button login">
+            <span class="login__text">Login</span>
+          </div>
+          
+        </div>
+      </header>
+
+    <main class="container">
+        <!-- Bên trái -->
+        <div class="container__left">
+        <h1 class="container__left__tieuDe">Quản Lý Tài Khoản</h1>
+
+        <nav class="container__left__tab check_in">
+            <div class="tab-chu"><i class="fa-regular fa-user"></i>Tài Khoản Của Bạn</div> 
+        </nav>
+
+        <nav class="container__left__tab">
+            <div class="tab-chu"><i class="fa-solid fa-gear"></i> Quản lý tải khoản</div> 
+        </nav>
+        
+        <nav class="container__left__tab">
+            <div class="tab-chu"><i class="fa-solid fa-lock"></i> Bảo mật & riêng tư</div> 
+        </nav>
+
+        <nav class="container__left__tab" onclick="getOut()">
+            <div class="tab-chu tab-chu--dangXuat"><i class="fa-solid fa-arrow-right-from-bracket"></i> Đăng xuất</div> 
+        </nav>
+
+        </div>
+
+        <div class="container__right">
+            <div class="dai-dien">
+                <img src="asset/png/IMG_3405.jpg" alt="" class="dai-dien_anh">
+                <div class="dai-dien_chu">
+                    <h1 class="dai-dien_ten">Huỳnh Thiên Bảo</h1>
+                    <div class="dai-dien_thoiGianThamGia">
+                        <img src="asset/png/clock.png" alt="" class="thoiGian_icon">
+                        <p class="thoiGian_chu">Tham gia vào tháng 7 năm 2018</p>
+                    </div>
+                </div>
+            </div>
+
+
+        <!-- Thẻ -->
+        <div class="container__card">
+            <div class="card">
+                <div class="card__header">
+                    <h1 class="card__tieude">Số dư</h1>
+                    <img src="asset/png/wallet.png" alt="" class="card__icon">
+                </div>
+            
+                <p class="card__conten">9.950.000 VNĐ</p>
+            </div>
+
+            <div class="card">
+                <div class="card__header">
+                    <h1 class="card__tieude">Đã tải</h1>
+                    <img src="asset/png/file.png" alt="" class="card__icon">
+                </div>
+            
+                <p class="card__conten card__conten--daTai">565 games</p>
+            </div>
+
+            <div class="card">
+                <div class="card__header">
+                    <h1 class="card__tieude card__tieude--like">Lượt thích</h1>
+                    <img src="asset/png/like (3).png" alt="" class="card__icon">
+                </div>
+            
+                <p class="card__conten">500N+</p>
+            </div>
+
+            <div class="card card--gem">
+                <img src="asset/png/gem.png" alt="" class="card__icon card__icon-gem">
+            
+                <p class="card__conten">Hạng Kim Cương</p>
+            </div>
+        </div>
+        
+            <a href="#">
+                <button class="btn-sumit btn">
+                    Xem thông tin chi tiết
+            </button>
+        </a>
+        </div>
+    </main>
+
+</body>
+<script>
+    function getOut(){
+        window.location.href = 'sign.html';
+    }
+</script>
+</html>

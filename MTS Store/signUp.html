@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="asset/png/letter-m.png"/>
+    <link rel="stylesheet" href="asset/css/signUp.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="asset/font/fontawesome/css/all.css">
+    <title>Đăng Ký</title>
+</head>
+<body>
+    <div id="toast"></div>
+
+    <div class="container">
+
+        <div class="dangNhap__overlay">
+
+            <!-- tiêu đề -->
+            <h1 class="dangNhap__sign"> Đăng Ký</h1>
+
+            <form id="DangKy" action="">
+
+                <!-- Nhập tài khoản -->
+                <div class="dangNhap--overlay name--overlay">
+                    <i class="fa-solid fa-user icon"></i>
+                    <input type="text" class="name taiKhoan__nhap nhap" placeholder="Họ và tên">
+                </div>
+
+
+                <!-- Số điện thoại -->
+                <div class="dangNhap--overlay phone--overlay">
+                    <i class="fa-solid fa-phone icon"></i>
+                    <input type="number" class="phone taiKhoan__nhap nhap" placeholder="Số điện thoại">
+                </div>
+                <!-- Ngày tháng năm sinh -->
+                <div class="dangNhap--overlay date--overlay">
+                    <i class="icon fa-solid fa-calendar-days"></i>
+                    <input type="date" class="date taiKhoan__nhap nhap" placeholder="Năm sinh">
+                </div>
+                <!-- Email -->
+                <div class="dangNhap--overlay email--overlay">
+                    <i class="icon fa-solid fa-envelope"></i>
+                    <input type="email" class="email taiKhoan__nhap nhap" placeholder="Email">
+                </div>
+                <!-- Nhập Mật khẩu -->
+                <div class="dangNhap--overlay pass--overlay">
+                    <i class="icon fa-solid fa-lock"></i>
+                    <input type="password" class="matKhau__nhap nhap" placeholder="Mật khẩu">
+                </div>
+         
+
+                
+
+                <!-- Các nút đăng nhập, đăng kí -->
+                <div class="btn-grup">
+                    
+                    <button class="btn-dn btn">
+                        Đăng nhập
+                    </button>
+
+                    <input type="submit" class="btn-submit btn disable" value="Đăng ký">
+                </div>
+
+            </form>
+            
+            </div>
+            
+        </div>
+
+    </div>
+</body>
+<script src="asset/js/dangKy.js"></script>
+</html>

@@ -12,6 +12,12 @@ a{
     min-height: 450px;
     min-width: 256px;
     box-shadow: 0 0 15px rgba(10, 10, 10, 0.3);
+    transition: all 300ms;
+}
+
+.card-custom:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 0 25px rgba(10, 10, 10, 0.5);
 }
 
 .card-custom-img {
