@@ -9,37 +9,37 @@
         "Id": "ADBS",
         "Name": "Lập trình Android cơ bản",
         "Logo": "ADBS.jpg",
-        "Des": "Khóa học về lập trình ứng dụng Android có nâng cao, bao gồm các kỹ thuật phức tạp và tiên tiến."
+        "Des": "Khóa học về lập trình ứng dụng Android cơ bản, bao gồm các kỹ thuật phức tạp và tiên tiến."
     },
     {
         "Id": "ADTE",
         "Name": "Kiểm thử và triển khai ứng dụng Android",
         "Logo": "ADTE.jpg",
-        "Des": "Khóa học về lập trình ứng dụng Android có nâng cao, bao gồm các kỹ thuật phức tạp và tiên tiến."
+        "Des": "Khóa học về Kiểm thử và triển khai ứng dụng Android, bao gồm các kỹ thuật phức tạp và tiên tiến."
     },
     {
         "Id": "ADUI",
         "Name": "Thiết kế giao diện trên Android",
         "Logo": "ADUI.jpg",
-        "Des": "Khóa học về lập trình ứng dụng Android có nâng cao, bao gồm các kỹ thuật phức tạp và tiên tiến."
+        "Des": "Khóa học về Thiết kế giao diện trên Android, bao gồm các kỹ thuật phức tạp và tiên tiến."
     },
     {
         "Id": "ASNE",
         "Name": "Lập trình ASP.NET",
         "Logo": "ASNE.png",
-        "Des": "Khóa học về lập trình ứng dụng Android có nâng cao, bao gồm các kỹ thuật phức tạp và tiên tiến."
+        "Des": "Khóa học về Lập trình ASP.NET, bao gồm các kỹ thuật phức tạp và tiên tiến."
     },
     {
         "Id": "CLCO",
         "Name": "Điện toán đám mây",
         "Logo": "CLCO.jpg",
-        "Des": "Khóa học về lập trình ứng dụng Android có nâng cao, bao gồm các kỹ thuật phức tạp và tiên tiến."
+        "Des": "Khóa học về Điện toán đám mây, bao gồm các kỹ thuật phức tạp và tiên tiến."
     },
     {
         "Id": "DBAV",
         "Name": "SQL Server",
         "Logo": "DBAV.png",
-        "Des": "Khóa học về lập trình ứng dụng Android có nâng cao, bao gồm các kỹ thuật phức tạp và tiên tiến."
+        "Des": "Khóa học về SQL Server, bao gồm các kỹ thuật phức tạp và tiên tiến."
     },
     {
         "Id": "DBBS",

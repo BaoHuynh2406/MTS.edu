@@ -15,3 +15,7 @@ ul{
     font-weight: normal;
     margin: 10px 0;
 }
+
+.lesson__item li:hover a{
+    color: rgb(68, 166, 226)  !important;
+}

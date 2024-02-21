@@ -1,5 +1,5 @@
 <section class="container">
-    <div class="d-flex flex-wrap align-items-center justify-content-center ">
+    <div class="d-flex flex-wrap align-items-center justify-content-between ">
         <!-- LOGO -->
         <a href="/"
             class="d-flex align-items-center mb-2 me-5 col-auto col-lg-12 col-xl-auto mb-lg-0 text-dark text-decoration-none">
@@ -7,53 +7,8 @@
             <span class="fw-bold fs-5">MTS Education </span>
         </a>
 
-        <!-- NAV -->
-        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-            <li><a href="#" class="nav-link px-2 link-secondary">Trang chủ</a></li>
-            <li><a href="Course.html" class="nav-link px-2 link-dark">Khóa học</a></li>
-            <li><a href="#" class="nav-link px-2 link-dark">Cuộc thi</a></li>
-            <li class="dropdown">
-                <a class="nav-link px-2 link-dark dropdown-toggle" href="#" role="button"
-                    data-bs-toggle="dropdown" aria-expanded="false">
-                    Trợ giúp
-                </a>
-                <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Facebook</a></li>
-                    <li><a class="dropdown-item" href="#">Github</a></li>
-                    <li><a class="dropdown-item" href="#">Mail</a></li>
+        <div class="nav align-items-center" ng-include="'includes/navBar.html'">
 
-                    <li>
-                        <hr class="dropdown-divider">
-                    </li>
-                    <li><a class="dropdown-item" href="#">Phản hồi</a></li>
-                </ul>
-            </li>
-        </ul>
-
-        <!-- SEARCH -->
-        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-5 d-flex align-items-center justify-content-center">
-            <div class="input-group">
-                <input type="text" class="form-control" placeholder="Tìm kiếm...">
-                <div class="input-group-append"><button class="btn btn-primary"><i
-                            class="bi bi-search"></i></button></div>
-            </div>
-        </form>
-
-        <!-- DROPDOWN -->
-        <div class="dropdown text-end">
-            <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" id="dropdownUser1"
-                data-bs-toggle="dropdown" aria-expanded="false">
-                <img src="src/img/person-circle.svg" alt="mdo" width="32" height="32" class="rounded-circle">
-            </a>
-            <ul class="dropdown-menu text-small" aria-labelledby="dropdownUser1">
-                <li><a class="dropdown-item" href="#">Cài đặt</a></li>
-                <li><a class="dropdown-item" href="#">Tài khoản</a></li>
-                <li><a class="dropdown-item" href="#"> Đổi mật khẩu </a></li>
-                <li>
-                    <hr class="dropdown-divider">
-                </li>
-                <li><a class="dropdown-item" href="#!login">Đăng xuất</a></li>
-            </ul>
         </div>
     </div>
 </section>

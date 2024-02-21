@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" />
     <!-- CSS -->
     <link rel="stylesheet" href="src/css/home-page.css">
-  
+
     <!-- Angular JS-->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
     <!-- AngularJS Route -->
@@ -28,30 +28,33 @@
 
 </head>
 
-<body ng-app="indexPage" ng-controller="ctrl">
+<body ng-app="indexPage" ng-controller="myCtrl">
     <!-- Header -->
-    <header class="header p-3 mb-1 border-bottom " id="header" ng-include="'includes/header.html'">     </header>
+    <header class="header p-3 mb-1 border-bottom " id="header" ng-include="'includes/header.html'"> </header>
 
-    <main ng-view class="view"> 
-
+    <main>
+        <ng-view></ng-view>
     </main>
 
 
 
 
     <!-- Footer -->
-    <footer class="text-center text-lg-start text-white" style="background-color: #1c2331" ng-include="'/includes/footer.html'">
-        
+    <footer class="text-center text-lg-start text-white" style="background-color: #1c2331"
+        ng-include="'/includes/footer.html'">
+
     </footer>
     <!-- Footer -->
 
 
 </body>
 
-
 <script src="src/Js/index.js"></script>
+
+<!-- 
 <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.9/index.global.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@fullcalendar/bootstrap5@6.1.9/index.global.min.js"></script>
-<script src="https://unpkg.com/bs-brain@2.0.3/components/calendars/calendar-1/assets/controller/calendar-1.js"></script>
+<script src="https://unpkg.com/bs-brain@2.0.3/components/calendars/calendar-1/assets/controller/calendar-1.js"></script> -->
+
 
 </html>

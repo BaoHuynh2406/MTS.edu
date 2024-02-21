@@ -126,6 +126,10 @@ a{
 
 }
 
+.selected{
+    color: #1e54a4 !important;
+}
+
 /* End header */
 
 .Block-user {
